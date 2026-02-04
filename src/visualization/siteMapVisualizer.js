@@ -1,7 +1,8 @@
 const fs = require('fs').promises;
 const path = require('path');
 const { createCanvas, loadImage } = require('canvas');
-const { Graph } = require('@dagrejs/dagre');
+const { graphlib } = require('dagre');
+const Graph = graphlib.Graph;
 
 class SiteMapVisualizer {
   constructor(outputPath = './output.json') {

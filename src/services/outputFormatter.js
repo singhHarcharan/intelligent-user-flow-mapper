@@ -120,7 +120,7 @@ function formatFlow(flow, analyzedPages) {
   return {
     id: createFlowId(flow),
     type: flow.type,
-    name: flow.name,
+    name: flow.name || `${capitalize(flow.type || 'flow')} Flow`,
     score: flow.score || 0,
     steps,
     stepCount: steps.length
@@ -177,3 +177,8 @@ function createFlowId(flow) {
 }
 
 module.exports = { formatOutput };
+
+function capitalize(value) {
+  if (!value) return '';
+  return value.charAt(0).toUpperCase() + value.slice(1);
+}

@@ -225,7 +225,23 @@ npm install
 npm start
 ```
 
-The API will be available at `http://localhost:3000`
+The UI + API will be available at `http://localhost:3001`
+
+If you want the API-only server:
+
+```bash
+node src/index.js
+```
+
+This runs at `http://localhost:3000`.
+
+### SPA / Auth Crawling (Playwright)
+
+Playwright requires browser binaries:
+
+```bash
+npx playwright install
+```
 
 ### API Endpoint
 
@@ -242,7 +258,14 @@ The API will be available at `http://localhost:3000`
   "crawlConfig": {
     "maxDepth": 3,
     "maxPages": 50,
-    "timeout": 30000
+    "timeout": 30000,
+    "rendering": "auto",
+    "delayMs": 250,
+    "maxRetries": 3,
+    "retryBaseMs": 500,
+    "retryMaxMs": 5000,
+    "authMode": "auto",
+    "loginUrl": "https://example.com/login"
   }
 }
 ```
@@ -266,21 +289,45 @@ This runs an example against a demo site and outputs the result.
 | `maxDepth` | 3 | Maximum crawl depth |
 | `maxPages` | 50 | Maximum pages to crawl |
 | `timeout` | 30000ms | Request timeout |
+| `rendering` | `auto` | `static` (axios), `playwright`, or `auto` |
+| `delayMs` | 250 | Delay between requests |
+| `maxRetries` | 3 | Retry count for 429/5xx |
+| `retryBaseMs` | 500 | Base backoff for retries |
+| `retryMaxMs` | 5000 | Max backoff for retries |
+| `authMode` | `auto` | `none`, `basic`, `form`, or `auto` |
+| `loginUrl` | null | Optional login URL for form auth |
 
 ### Optional Authentication
 
-The service supports basic authentication. If provided, it will be used for all requests:
+The service supports both basic auth and form-based auth. If provided, it will be used for all requests:
 
 ```json
 {
   "credentials": {
     "username": "user@example.com",
     "password": "password123"
+  },
+  "crawlConfig": {
+    "authMode": "basic"
   }
 }
 ```
 
-**Note**: Currently supports basic auth only. Can be extended for OAuth, sessions, etc.
+For SPA / form login flows:
+
+```json
+{
+  "credentials": {
+    "username": "user@example.com",
+    "password": "password123"
+  },
+  "crawlConfig": {
+    "authMode": "form",
+    "loginUrl": "https://example.com/login",
+    "rendering": "playwright"
+  }
+}
+```
 
 ## 🔧 Technology Stack
 
@@ -300,11 +347,9 @@ The service supports basic authentication. If provided, it will be used for all 
 
 ### Known Limitations
 
-1. **JavaScript-rendered content**: Currently only parses static HTML. SPAs with client-side routing won't be fully captured.
-   - **Mitigation**: Can add Playwright as optional crawler for specific URLs
+1. **JavaScript-rendered content**: Default is static HTML parsing. For SPAs, use `rendering: "playwright"` or `authMode: "form"`.
 
-2. **Authentication**: Basic auth only. No support for OAuth, cookies, or session management.
-   - **Mitigation**: Can be extended with cookie jar and session handling
+2. **Authentication**: Supports basic and form-based login. OAuth and complex multi-step SSO are not supported.
 
 3. **Scale**: In-memory processing limits crawl size.
    - **Mitigation**: Adequate for most sites (50-100 pages). Can add streaming for larger sites.
