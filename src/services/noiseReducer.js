@@ -22,8 +22,14 @@ function reduceNoise(rawFlows, analyzedPages) {
   
   // Step 4: Remove circular flows
   flows = removeCircularFlows(flows);
-  
-  // Step 5: Score and rank flows by meaningfulness
+
+  // Step 5: Collapse consecutive steps with identical page types
+  flows = collapseConsecutiveTypes(flows, analyzedPages);
+
+  // Step 6: Deduplicate flows with identical page-type sequences
+  flows = dedupeByTypeSequence(flows, analyzedPages);
+
+  // Step 7: Score and rank flows by meaningfulness
   flows = scoreAndRankFlows(flows, analyzedPages);
   
   return flows;
@@ -105,6 +111,52 @@ function removeCircularFlows(flows) {
     const uniqueUrls = new Set(flow.path);
     return uniqueUrls.size === flow.path.length;
   });
+}
+
+/**
+ * Collapses consecutive steps that map to the same page type.
+ * Example: product-list → product-list → product-detail becomes
+ * product-list → product-detail.
+ */
+function collapseConsecutiveTypes(flows, analyzedPages) {
+  return flows.map(flow => {
+    const collapsed = [];
+    let lastType = null;
+
+    flow.path.forEach(url => {
+      const page = analyzedPages.find(p => p.url === url);
+      const type = page ? page.pageType : 'unknown';
+
+      if (type !== lastType) {
+        collapsed.push(url);
+        lastType = type;
+      }
+    });
+
+    return { ...flow, path: collapsed };
+  });
+}
+
+/**
+ * Removes duplicate flows that share the same sequence of page types.
+ */
+function dedupeByTypeSequence(flows, analyzedPages) {
+  const seen = new Set();
+  const unique = [];
+
+  flows.forEach(flow => {
+    const signature = flow.path.map(url => {
+      const page = analyzedPages.find(p => p.url === url);
+      return page ? page.pageType : 'unknown';
+    }).join('→');
+
+    if (!seen.has(signature)) {
+      seen.add(signature);
+      unique.push(flow);
+    }
+  });
+
+  return unique;
 }
 
 /**
