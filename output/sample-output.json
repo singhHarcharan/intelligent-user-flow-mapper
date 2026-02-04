@@ -1,0 +1,273 @@
+{
+  "metadata": {
+    "startUrl": "https://example-shop.com",
+    "totalPages": 12,
+    "totalFlows": 3,
+    "generatedAt": "2026-02-04T00:00:00.000Z"
+  },
+  "nodes": [
+    {
+      "id": "home",
+      "url": "https://example-shop.com/",
+      "label": "Home Page",
+      "pageType": "home",
+      "title": "Welcome to Example Shop",
+      "metadata": {
+        "hasForm": false,
+        "hasLogin": false,
+        "hasCheckout": false
+      }
+    },
+    {
+      "id": "login",
+      "url": "https://example-shop.com/login",
+      "label": "Login",
+      "pageType": "login",
+      "title": "Sign In - Example Shop",
+      "metadata": {
+        "hasForm": true,
+        "hasLogin": true,
+        "hasCheckout": false
+      }
+    },
+    {
+      "id": "products",
+      "url": "https://example-shop.com/products",
+      "label": "Product Listing",
+      "pageType": "product-list",
+      "title": "Shop All Products",
+      "metadata": {
+        "hasForm": false,
+        "hasLogin": false,
+        "hasCheckout": false
+      }
+    },
+    {
+      "id": "products/wireless-headphones",
+      "url": "https://example-shop.com/products/wireless-headphones",
+      "label": "Product Details",
+      "pageType": "product-detail",
+      "title": "Wireless Headphones - Premium Sound",
+      "metadata": {
+        "hasForm": false,
+        "hasLogin": false,
+        "hasCheckout": false
+      }
+    },
+    {
+      "id": "cart",
+      "url": "https://example-shop.com/cart",
+      "label": "Add to Cart",
+      "pageType": "checkout",
+      "title": "Shopping Cart",
+      "metadata": {
+        "hasForm": false,
+        "hasLogin": false,
+        "hasCheckout": true
+      }
+    },
+    {
+      "id": "checkout",
+      "url": "https://example-shop.com/checkout",
+      "label": "Checkout",
+      "pageType": "checkout",
+      "title": "Checkout - Complete Your Purchase",
+      "metadata": {
+        "hasForm": true,
+        "hasLogin": false,
+        "hasCheckout": true
+      }
+    },
+    {
+      "id": "support",
+      "url": "https://example-shop.com/support",
+      "label": "Support",
+      "pageType": "support",
+      "title": "Customer Support",
+      "metadata": {
+        "hasForm": false,
+        "hasLogin": false,
+        "hasCheckout": false
+      }
+    },
+    {
+      "id": "contact",
+      "url": "https://example-shop.com/contact",
+      "label": "Contact",
+      "pageType": "contact",
+      "title": "Contact Us",
+      "metadata": {
+        "hasForm": true,
+        "hasLogin": false,
+        "hasCheckout": false
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "home->login",
+      "source": "home",
+      "target": "login",
+      "sourceUrl": "https://example-shop.com/",
+      "targetUrl": "https://example-shop.com/login",
+      "flowTypes": ["authentication"]
+    },
+    {
+      "id": "home->products",
+      "source": "home",
+      "target": "products",
+      "sourceUrl": "https://example-shop.com/",
+      "targetUrl": "https://example-shop.com/products",
+      "flowTypes": ["ecommerce"]
+    },
+    {
+      "id": "products->products/wireless-headphones",
+      "source": "products",
+      "target": "products/wireless-headphones",
+      "sourceUrl": "https://example-shop.com/products",
+      "targetUrl": "https://example-shop.com/products/wireless-headphones",
+      "flowTypes": ["ecommerce"]
+    },
+    {
+      "id": "products/wireless-headphones->cart",
+      "source": "products/wireless-headphones",
+      "target": "cart",
+      "sourceUrl": "https://example-shop.com/products/wireless-headphones",
+      "targetUrl": "https://example-shop.com/cart",
+      "flowTypes": ["ecommerce"]
+    },
+    {
+      "id": "cart->checkout",
+      "source": "cart",
+      "target": "checkout",
+      "sourceUrl": "https://example-shop.com/cart",
+      "targetUrl": "https://example-shop.com/checkout",
+      "flowTypes": ["ecommerce"]
+    },
+    {
+      "id": "home->support",
+      "source": "home",
+      "target": "support",
+      "sourceUrl": "https://example-shop.com/",
+      "targetUrl": "https://example-shop.com/support",
+      "flowTypes": ["support"]
+    },
+    {
+      "id": "support->contact",
+      "source": "support",
+      "target": "contact",
+      "sourceUrl": "https://example-shop.com/support",
+      "targetUrl": "https://example-shop.com/contact",
+      "flowTypes": ["support"]
+    }
+  ],
+  "flows": [
+    {
+      "id": "ecommerce-home-products-products-wireless-headphones-cart-checkout",
+      "type": "ecommerce",
+      "name": "Product Purchase Flow",
+      "score": 95,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "nodeId": "home",
+          "url": "https://example-shop.com/",
+          "label": "Home Page",
+          "pageType": "home",
+          "title": "Welcome to Example Shop"
+        },
+        {
+          "stepNumber": 2,
+          "nodeId": "products",
+          "url": "https://example-shop.com/products",
+          "label": "Product Listing",
+          "pageType": "product-list",
+          "title": "Shop All Products"
+        },
+        {
+          "stepNumber": 3,
+          "nodeId": "products/wireless-headphones",
+          "url": "https://example-shop.com/products/wireless-headphones",
+          "label": "Product Details",
+          "pageType": "product-detail",
+          "title": "Wireless Headphones - Premium Sound"
+        },
+        {
+          "stepNumber": 4,
+          "nodeId": "cart",
+          "url": "https://example-shop.com/cart",
+          "label": "Add to Cart",
+          "pageType": "checkout",
+          "title": "Shopping Cart"
+        },
+        {
+          "stepNumber": 5,
+          "nodeId": "checkout",
+          "url": "https://example-shop.com/checkout",
+          "label": "Checkout",
+          "pageType": "checkout",
+          "title": "Checkout - Complete Your Purchase"
+        }
+      ],
+      "stepCount": 5
+    },
+    {
+      "id": "authentication-home-login",
+      "type": "authentication",
+      "name": "Login Flow",
+      "score": 55,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "nodeId": "home",
+          "url": "https://example-shop.com/",
+          "label": "Home Page",
+          "pageType": "home",
+          "title": "Welcome to Example Shop"
+        },
+        {
+          "stepNumber": 2,
+          "nodeId": "login",
+          "url": "https://example-shop.com/login",
+          "label": "Login",
+          "pageType": "login",
+          "title": "Sign In - Example Shop"
+        }
+      ],
+      "stepCount": 2
+    },
+    {
+      "id": "support-home-support-contact",
+      "type": "support",
+      "name": "Support Flow",
+      "score": 50,
+      "steps": [
+        {
+          "stepNumber": 1,
+          "nodeId": "home",
+          "url": "https://example-shop.com/",
+          "label": "Home Page",
+          "pageType": "home",
+          "title": "Welcome to Example Shop"
+        },
+        {
+          "stepNumber": 2,
+          "nodeId": "support",
+          "url": "https://example-shop.com/support",
+          "label": "Support",
+          "pageType": "support",
+          "title": "Customer Support"
+        },
+        {
+          "stepNumber": 3,
+          "nodeId": "contact",
+          "url": "https://example-shop.com/contact",
+          "label": "Contact",
+          "pageType": "contact",
+          "title": "Contact Us"
+        }
+      ],
+      "stepCount": 3
+    }
+  ]
+}

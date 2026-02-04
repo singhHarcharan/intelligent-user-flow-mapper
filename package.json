@@ -1,0 +1,28 @@
+{
+  "name": "intelligent-user-flow-mapper",
+  "version": "1.0.0",
+  "description": "Backend service for extracting meaningful user navigation flows from websites",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "node src/example.js"
+  },
+  "keywords": ["user-flow", "crawler", "navigation", "flow-extraction"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "@dagrejs/dagre": "^3.0.5",
+    "canvas": "^2.11.2",
+    "cors": "^2.8.5",
+    "d3": "^7.8.5",
+    "svgdom": "^0.1.10",
+    "@svgdotjs/svg.js": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

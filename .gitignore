@@ -1,0 +1,9 @@
+node_modules/
+output/*.json
+!output/sample-output.json
+.env
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

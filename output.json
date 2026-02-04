@@ -1,0 +1,2418 @@
+{
+    "metadata": {
+        "startUrl": "https://stripe.com",
+        "totalPages": 50,
+        "totalFlows": 58,
+        "generatedAt": "2026-02-04T08:38:33.791Z"
+    },
+    "nodes": [
+        {
+            "id": "home",
+            "url": "https://stripe.com",
+            "label": "Content Page",
+            "pageType": "content",
+            "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/lightspeed-terminal",
+            "url": "https://stripe.com/in/customers/lightspeed-terminal",
+            "label": "Product Listing",
+            "pageType": "product-list",
+            "title": "Lightspeed omnichannel case study | StripeStripe logoStripe logoLightspeed logoConnectPaymentsTerminalCapitalStripe SigmaLime logoLinear logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/linear",
+            "url": "https://stripe.com/in/customers/linear",
+            "label": "Checkout",
+            "pageType": "checkout",
+            "title": "Linear Partners with Stripe to Handle Billing and Payments as it Grows | StripeStripe logoStripe logoLinear logoCheckoutBillingAtlasClimatePaymentsLiveX AI logoLocalVR logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "home",
+            "url": "https://stripe.com/",
+            "label": "Home Page",
+            "pageType": "home",
+            "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/startups",
+            "url": "https://stripe.com/in/startups#application",
+            "label": "Checkout",
+            "pageType": "checkout",
+            "title": "Grow Your Business with Stripe | Stripe StartupsStripe logoStripe logoCursor logoElevenLabs logoMistral-ai logoSlack logoTwilio logoLinear logoBloomNation logoInstacart logoDeliveroo logoKarat logoShopify logoPersona logoGlossier logoDermalogica logoIndochino logoBlockchainCom logoBraintrust logoMagic logoTwitter logoSpotify logoSubstack logoRunway logoElevenLabs logoRetool logoHex logoRunway logoElevenLabs logoRetool logoHex logoPaymentsOpenAI logoGithub logoRamp logoAtlasStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/newsroom/news/stripe-openai-instant-checkout",
+            "url": "https://stripe.com/in/newsroom/news/stripe-openai-instant-checkout",
+            "label": "Checkout",
+            "pageType": "checkout",
+            "title": "Stripe powers Instant Checkout in ChatGPT and releases Agentic Commerce Protocol co-developed with OpenAIStripe logoStripe logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/lovable",
+            "url": "https://stripe.com/in/customers/lovable",
+            "label": "Checkout",
+            "pageType": "checkout",
+            "title": "Riding the AI boom: How Lovable Grew into a Vibe-Coding Juggernaut with StripeStripe logoStripe logoLovable logoAtlasBillingPaymentsCheckoutRadarInvoicingStripe SigmaLikeToKnowIt logoLuckinCoffee logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/instacart",
+            "url": "https://stripe.com/in/customers/instacart",
+            "label": "Checkout",
+            "pageType": "checkout",
+            "title": "Behind the scenes: How Instacart powers online grocery delivery with StripeStripe logoStripe logoInstacart logoPaymentsConnectIssuingInstacart logoIntelsat logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/runway",
+            "url": "https://stripe.com/in/customers/runway",
+            "label": "Checkout",
+            "pageType": "checkout",
+            "title": "Runway Protects Developer Time with No-Code Solutions from Stripe | StripeStripe logoStripe logoRunway logoBillingTaxRevenue RecognitionPaymentsCheckoutRadarRushOrderTees logoRVshare logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/elevenlabs",
+            "url": "https://stripe.com/in/customers/elevenlabs",
+            "label": "Checkout",
+            "pageType": "checkout",
+            "title": "Behind the scenes: How ElevenLabs grew into a $3 billion AI audio leader with StripeStripe logoStripe logoElevenLabs logoBillingConnectPaymentsCheckoutTaxStripe SigmaEmber logoEndava logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/lp/vertical-saas-benchmark-2025",
+            "url": "https://stripe.com/in/lp/vertical-saas-benchmark-2025?utm_medium=owned-surfaces&utm_source=33d6&utm_campaign=GLOBAL_4250&utm_content=819a&utm_term=a6a6d7b23e01",
+            "label": "Checkout",
+            "pageType": "checkout",
+            "title": "Vertical SaaS benchmarks for growth, fintech and AI | StripeStripe logoDurationPage countStripe logo",
+            "metadata": {
+                "hasForm": true,
+                "hasLogin": false,
+                "hasCheckout": true
+            }
+        },
+        {
+            "id": "in/customers/crypto-com-spotlight",
+            "url": "https://stripe.com/in/customers/crypto-com-spotlight",
+            "label": "Checkout",
+            "pageType": "checkout",
+            "title": "Crypto.com Partners with Stripe to Enable Convenient Crypto Payments | StripeStripe logoStripe logocrypto.com logoPaymentsElementsCheckoutCryptoCSFloat logoCarnegie logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/blog/introducing-our-agentic-commerce-solutions",
+            "url": "https://stripe.com/in/blog/introducing-our-agentic-commerce-solutions",
+            "label": "Checkout",
+            "pageType": "checkout",
+            "title": "Introducing our agentic commerce solutionsStripe logoStripe logoStripe logo",
+            "metadata": {
+                "hasForm": true,
+                "hasLogin": false,
+                "hasCheckout": true
+            }
+        },
+        {
+            "id": "in/lp/how-retailers-drive-growth",
+            "url": "https://stripe.com/in/lp/how-retailers-drive-growth",
+            "label": "Checkout",
+            "pageType": "checkout",
+            "title": "Retail payment strategies that drive growthStripe logoStripe logo",
+            "metadata": {
+                "hasForm": true,
+                "hasLogin": false,
+                "hasCheckout": true
+            }
+        },
+        {
+            "id": "in/customers/woo",
+            "url": "https://stripe.com/in/customers/woo",
+            "label": "Product Listing",
+            "pageType": "product-list",
+            "title": "Stripe for WooCommerce: Powering WooPayments GloballyStripe logoStripe logoWooCommerce logoTerminalBillingConnectPaymentsWooCommerce logoWooCommerce logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/capital",
+            "url": "https://stripe.com/in/capital",
+            "label": "Content Page",
+            "pageType": "content",
+            "title": "Stripe Capital | Loans and Cash Advances for Small BusinessesStripe logoStripe logoCapitalXirsys logoProsper202 logoMyPark logoPerfectTux logoXirsys logoProsper202 logoMyPark logoPerfectTux logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/newsroom/news/bfcm2025",
+            "url": "https://stripe.com/in/newsroom/news/bfcm2025",
+            "label": "Content Page",
+            "pageType": "content",
+            "title": "Businesses on Stripe processed more than $40 billion from Black Friday through Cyber MondayStripe logoStripe logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/shopify",
+            "url": "https://stripe.com/in/customers/shopify",
+            "label": "Product Listing",
+            "pageType": "product-list",
+            "title": "Shopify case study | StripeStripe logoStripe logoShopify logoIssuingFinancial AccountsTerminalPaymentsConnectShopify logoShoplazza logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/substack",
+            "url": "https://stripe.com/in/customers/substack",
+            "label": "Product Listing",
+            "pageType": "product-list",
+            "title": "Substack Surpasses Five-Million Paid Subscriptions | StripeStripe logoStripe logoSubstack logoConnectBillingPaymentsElementsRadarSupabase logoSusquehanna Growth Equity logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/supabase",
+            "url": "https://stripe.com/in/customers/supabase",
+            "label": "Product Listing",
+            "pageType": "product-list",
+            "title": "Supabase delivers its backend-as-a-service to 150 countries with StripeStripe logoStripe logoSupabase logoPaymentsElementsRadarAuthorizationSusquehanna Growth Equity logoSwimAustralia logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/guides/best-practices-for-launching-and-scaling-platform-payments",
+            "url": "https://stripe.com/in/guides/best-practices-for-launching-and-scaling-platform-payments",
+            "label": "Content Page",
+            "pageType": "content",
+            "title": "Report: Best practices for launching and scaling platform paymentsStripe logoStripe logoPaymentsPaymentsStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/guides/introduction-to-monetizing-payments",
+            "url": "https://stripe.com/in/guides/introduction-to-monetizing-payments",
+            "label": "Content Page",
+            "pageType": "content",
+            "title": "Introduction to monetising payments for SaaS platformsStripe logoStripe logoConnectConnectStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/mindbody",
+            "url": "https://stripe.com/in/customers/mindbody",
+            "label": "Product Listing",
+            "pageType": "product-list",
+            "title": "Behind the scenes: How Mindbody Built its Integrated Payments Platform | StripeStripe logoStripe logoMindbody logoPaymentsTerminalRadarConnectMindvalley logoMinelab logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/figma",
+            "url": "https://stripe.com/in/customers/figma",
+            "label": "Product Listing",
+            "pageType": "product-list",
+            "title": "Figma case study | Stripe Stripe logoStripe logoFigma logoBillingPaymentsElementsInvoicingRadarFinAI logoFindigs logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/anthropic",
+            "url": "https://stripe.com/in/customers/anthropic",
+            "label": "Product Listing",
+            "pageType": "product-list",
+            "title": "How Anthropic Built a Scalable Revenue Model | Stripe  Stripe logoStripe logoAnthropic logoPaymentsElementsBillingInvoicingStripe SigmaRadarAPCOA logoArc logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/hertz",
+            "url": "https://stripe.com/in/customers/hertz",
+            "label": "Product Listing",
+            "pageType": "product-list",
+            "title": "Hertz Unifies Commerce with StripeStripe logoStripe logoHertz logoPaymentsTerminalConnectRadarStripe SigmaHex logoHeyCentric logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/urbn",
+            "url": "https://stripe.com/in/customers/urbn",
+            "label": "Product Listing",
+            "pageType": "product-list",
+            "title": "URBN Consolidates $5 billion in Online and In-Store Revenue onto Stripe | Stripe Stripe logoStripe logoURBN logoPaymentsElementsTerminalStripe SigmaConnectVeed.io logoVibefam logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/jobber",
+            "url": "https://stripe.com/in/customers/jobber",
+            "label": "Product Listing",
+            "pageType": "product-list",
+            "title": "Jobber case study | StripeStripe logoStripe logoJobber logoCapitalConnectBillingInvoicingIssuingTerminalJobber logoJotform logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/amazon",
+            "url": "https://stripe.com/in/customers/amazon",
+            "label": "Content Page",
+            "pageType": "content",
+            "title": "Amazon Simplifies Cross-Border Payments With Stripe | StripeStripe logoStripe logoAmazon logoPaymentsConnectAna logoAnkorstore logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/newsroom/news/nvidia-collaboration-with-stripe",
+            "url": "https://stripe.com/in/newsroom/news/nvidia-collaboration-with-stripe",
+            "label": "Content Page",
+            "pageType": "content",
+            "title": "Stripe deepens collaboration with NVIDIA to enhance Stripe’s AI-powered capabilities and expand global access to NVIDIA’s AI platform Stripe logoStripe logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/newsroom/news/stripe-ford-agreement",
+            "url": "https://stripe.com/in/newsroom/news/stripe-ford-agreement",
+            "label": "Content Page",
+            "pageType": "content",
+            "title": "Ford-Stripe agreement to accelerate easy payment experiences for customers, dealersStripe logoStripe logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/newsroom/news/google-and-stripe",
+            "url": "https://stripe.com/in/newsroom/news/google-and-stripe",
+            "label": "Content Page",
+            "pageType": "content",
+            "title": "Google Workspace integrates Stripe to help businesses accept payments in Google CalendarStripe logoStripe logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/ramp",
+            "url": "https://stripe.com/in/customers/ramp",
+            "label": "Content Page",
+            "pageType": "content",
+            "title": "Ramp case study | Stripe Stripe logoStripe logoRamp logoIssuingRayStudios logoReleased logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/newsroom/news/stripe-and-uber",
+            "url": "https://stripe.com/in/newsroom/news/stripe-and-uber",
+            "label": "Content Page",
+            "pageType": "content",
+            "title": "Uber partners with Stripe to enhance payments performance and reduce costsStripe logoStripe logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/le-monde",
+            "url": "https://stripe.com/in/customers/le-monde",
+            "label": "Content Page",
+            "pageType": "content",
+            "title": "Le Monde chooses Stripe to improve local and international paymentsStripe logoStripe logoLeMonde logoPaymentsStripe SigmaRadarLeasePlan logoLeonardoAi logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/browserbase",
+            "url": "https://stripe.com/in/customers/browserbase",
+            "label": "Content Page",
+            "pageType": "content",
+            "title": "Browserbase Powers Web Browsing for AI Agents and Apps with Stripe’s Usage-Based Billing | StripeStripe logoStripe logoBrowserbase logoBillingbsport logoBuckMason logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/customers/decagon",
+            "url": "https://stripe.com/in/customers/decagon",
+            "label": "Content Page",
+            "pageType": "content",
+            "title": "Decagon AI Decreases Costs for Customer Support Operations by 65% | StripeStripe logoStripe logoDecagon logoBillingInvoicingDecathlon logoDeliveroo logoStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        },
+        {
+            "id": "in/guides/introduction-to-risk-management",
+            "url": "https://stripe.com/in/guides/introduction-to-risk-management",
+            "label": "Content Page",
+            "pageType": "content",
+            "title": "Stripe: Introduction to risk management for software platformsStripe logoStripe logoRadarRadarStripe logo",
+            "metadata": {
+                "hasForm": false,
+                "hasLogin": false,
+                "hasCheckout": false
+            }
+        }
+    ],
+    "edges": [
+        {
+            "id": "home->in/customers/lightspeed-terminal",
+            "source": "home",
+            "target": "in/customers/lightspeed-terminal",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/customers/lightspeed-terminal",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "in/customers/lightspeed-terminal->in/customers/linear",
+            "source": "in/customers/lightspeed-terminal",
+            "target": "in/customers/linear",
+            "sourceUrl": "https://stripe.com/in/customers/lightspeed-terminal",
+            "targetUrl": "https://stripe.com/in/customers/linear",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/startups",
+            "source": "home",
+            "target": "in/startups",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/startups#application",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "in/startups->in/customers/linear",
+            "source": "in/startups",
+            "target": "in/customers/linear",
+            "sourceUrl": "https://stripe.com/in/startups#application",
+            "targetUrl": "https://stripe.com/in/customers/linear",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/newsroom/news/stripe-openai-instant-checkout",
+            "source": "home",
+            "target": "in/newsroom/news/stripe-openai-instant-checkout",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/newsroom/news/stripe-openai-instant-checkout",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/lovable",
+            "source": "home",
+            "target": "in/customers/lovable",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/customers/lovable",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/instacart",
+            "source": "home",
+            "target": "in/customers/instacart",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/customers/instacart",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/runway",
+            "source": "home",
+            "target": "in/customers/runway",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/customers/runway",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/linear",
+            "source": "home",
+            "target": "in/customers/linear",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/customers/linear",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/elevenlabs",
+            "source": "home",
+            "target": "in/customers/elevenlabs",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/customers/elevenlabs",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/lp/vertical-saas-benchmark-2025",
+            "source": "home",
+            "target": "in/lp/vertical-saas-benchmark-2025",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/lp/vertical-saas-benchmark-2025?utm_medium=owned-surfaces&utm_source=33d6&utm_campaign=GLOBAL_4250&utm_content=819a&utm_term=a6a6d7b23e01",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/crypto-com-spotlight",
+            "source": "home",
+            "target": "in/customers/crypto-com-spotlight",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/customers/crypto-com-spotlight",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/blog/introducing-our-agentic-commerce-solutions",
+            "source": "home",
+            "target": "in/blog/introducing-our-agentic-commerce-solutions",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/blog/introducing-our-agentic-commerce-solutions",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/lp/how-retailers-drive-growth",
+            "source": "home",
+            "target": "in/lp/how-retailers-drive-growth",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/lp/how-retailers-drive-growth",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/woo",
+            "source": "home",
+            "target": "in/customers/woo",
+            "sourceUrl": "https://stripe.com/",
+            "targetUrl": "https://stripe.com/in/customers/woo",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "in/customers/woo->in/capital",
+            "source": "in/customers/woo",
+            "target": "in/capital",
+            "sourceUrl": "https://stripe.com/in/customers/woo",
+            "targetUrl": "https://stripe.com/in/capital",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/newsroom/news/bfcm2025",
+            "source": "home",
+            "target": "in/newsroom/news/bfcm2025",
+            "sourceUrl": "https://stripe.com/",
+            "targetUrl": "https://stripe.com/in/newsroom/news/bfcm2025",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "in/newsroom/news/bfcm2025->in/customers/shopify",
+            "source": "in/newsroom/news/bfcm2025",
+            "target": "in/customers/shopify",
+            "sourceUrl": "https://stripe.com/in/newsroom/news/bfcm2025",
+            "targetUrl": "https://stripe.com/in/customers/shopify",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/substack",
+            "source": "home",
+            "target": "in/customers/substack",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/customers/substack",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "in/customers/substack->in/customers/supabase",
+            "source": "in/customers/substack",
+            "target": "in/customers/supabase",
+            "sourceUrl": "https://stripe.com/in/customers/substack",
+            "targetUrl": "https://stripe.com/in/customers/supabase",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/guides/best-practices-for-launching-and-scaling-platform-payments",
+            "source": "home",
+            "target": "in/guides/best-practices-for-launching-and-scaling-platform-payments",
+            "sourceUrl": "https://stripe.com/",
+            "targetUrl": "https://stripe.com/in/guides/best-practices-for-launching-and-scaling-platform-payments",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "in/guides/best-practices-for-launching-and-scaling-platform-payments->in/guides/introduction-to-monetizing-payments",
+            "source": "in/guides/best-practices-for-launching-and-scaling-platform-payments",
+            "target": "in/guides/introduction-to-monetizing-payments",
+            "sourceUrl": "https://stripe.com/in/guides/best-practices-for-launching-and-scaling-platform-payments",
+            "targetUrl": "https://stripe.com/in/guides/introduction-to-monetizing-payments",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/shopify",
+            "source": "home",
+            "target": "in/customers/shopify",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/customers/shopify",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/mindbody",
+            "source": "home",
+            "target": "in/customers/mindbody",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/customers/mindbody",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/figma",
+            "source": "home",
+            "target": "in/customers/figma",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/customers/figma",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/anthropic",
+            "source": "home",
+            "target": "in/customers/anthropic",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/customers/anthropic",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/hertz",
+            "source": "home",
+            "target": "in/customers/hertz",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/customers/hertz",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/urbn",
+            "source": "home",
+            "target": "in/customers/urbn",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/customers/urbn",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/supabase",
+            "source": "home",
+            "target": "in/customers/supabase",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/customers/supabase",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/jobber",
+            "source": "home",
+            "target": "in/customers/jobber",
+            "sourceUrl": "https://stripe.com",
+            "targetUrl": "https://stripe.com/in/customers/jobber",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/amazon",
+            "source": "home",
+            "target": "in/customers/amazon",
+            "sourceUrl": "https://stripe.com/",
+            "targetUrl": "https://stripe.com/in/customers/amazon",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/newsroom/news/nvidia-collaboration-with-stripe",
+            "source": "home",
+            "target": "in/newsroom/news/nvidia-collaboration-with-stripe",
+            "sourceUrl": "https://stripe.com/",
+            "targetUrl": "https://stripe.com/in/newsroom/news/nvidia-collaboration-with-stripe",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/newsroom/news/stripe-ford-agreement",
+            "source": "home",
+            "target": "in/newsroom/news/stripe-ford-agreement",
+            "sourceUrl": "https://stripe.com/",
+            "targetUrl": "https://stripe.com/in/newsroom/news/stripe-ford-agreement",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/newsroom/news/google-and-stripe",
+            "source": "home",
+            "target": "in/newsroom/news/google-and-stripe",
+            "sourceUrl": "https://stripe.com/",
+            "targetUrl": "https://stripe.com/in/newsroom/news/google-and-stripe",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/ramp",
+            "source": "home",
+            "target": "in/customers/ramp",
+            "sourceUrl": "https://stripe.com/",
+            "targetUrl": "https://stripe.com/in/customers/ramp",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/newsroom/news/stripe-and-uber",
+            "source": "home",
+            "target": "in/newsroom/news/stripe-and-uber",
+            "sourceUrl": "https://stripe.com/",
+            "targetUrl": "https://stripe.com/in/newsroom/news/stripe-and-uber",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/le-monde",
+            "source": "home",
+            "target": "in/customers/le-monde",
+            "sourceUrl": "https://stripe.com/",
+            "targetUrl": "https://stripe.com/in/customers/le-monde",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/browserbase",
+            "source": "home",
+            "target": "in/customers/browserbase",
+            "sourceUrl": "https://stripe.com/",
+            "targetUrl": "https://stripe.com/in/customers/browserbase",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/customers/decagon",
+            "source": "home",
+            "target": "in/customers/decagon",
+            "sourceUrl": "https://stripe.com/",
+            "targetUrl": "https://stripe.com/in/customers/decagon",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/guides/introduction-to-monetizing-payments",
+            "source": "home",
+            "target": "in/guides/introduction-to-monetizing-payments",
+            "sourceUrl": "https://stripe.com/",
+            "targetUrl": "https://stripe.com/in/guides/introduction-to-monetizing-payments",
+            "flowTypes": [
+                "navigation"
+            ]
+        },
+        {
+            "id": "home->in/guides/introduction-to-risk-management",
+            "source": "home",
+            "target": "in/guides/introduction-to-risk-management",
+            "sourceUrl": "https://stripe.com/",
+            "targetUrl": "https://stripe.com/in/guides/introduction-to-risk-management",
+            "flowTypes": [
+                "navigation"
+            ]
+        }
+    ],
+    "flows": [
+        {
+            "id": "navigation-home-in/customers/lightspeed-terminal-in/customers/linear",
+            "type": "navigation",
+            "name": "product-list Flow",
+            "score": 85,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/lightspeed-terminal",
+                    "url": "https://stripe.com/in/customers/lightspeed-terminal",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Lightspeed omnichannel case study | StripeStripe logoStripe logoLightspeed logoConnectPaymentsTerminalCapitalStripe SigmaLime logoLinear logoStripe logo"
+                },
+                {
+                    "stepNumber": 3,
+                    "nodeId": "in/customers/linear",
+                    "url": "https://stripe.com/in/customers/linear",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Linear Partners with Stripe to Handle Billing and Payments as it Grows | StripeStripe logoStripe logoLinear logoCheckoutBillingAtlasClimatePaymentsLiveX AI logoLocalVR logoStripe logo"
+                }
+            ],
+            "stepCount": 3
+        },
+        {
+            "id": "navigation-home-in/customers/lightspeed-terminal-in/customers/linear",
+            "type": "navigation",
+            "name": "product-list Flow",
+            "score": 85,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/lightspeed-terminal",
+                    "url": "https://stripe.com/in/customers/lightspeed-terminal",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Lightspeed omnichannel case study | StripeStripe logoStripe logoLightspeed logoConnectPaymentsTerminalCapitalStripe SigmaLime logoLinear logoStripe logo"
+                },
+                {
+                    "stepNumber": 3,
+                    "nodeId": "in/customers/linear",
+                    "url": "https://stripe.com/in/customers/linear",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Linear Partners with Stripe to Handle Billing and Payments as it Grows | StripeStripe logoStripe logoLinear logoCheckoutBillingAtlasClimatePaymentsLiveX AI logoLocalVR logoStripe logo"
+                }
+            ],
+            "stepCount": 3
+        },
+        {
+            "id": "navigation-home-in/startups-in/customers/linear",
+            "type": "navigation",
+            "name": "Stripe Startups programme.Access financial benefits, a focused community, and expert resources to help you grow your business.Apply now Flow",
+            "score": 80,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/startups",
+                    "url": "https://stripe.com/in/startups#application",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Grow Your Business with Stripe | Stripe StartupsStripe logoStripe logoCursor logoElevenLabs logoMistral-ai logoSlack logoTwilio logoLinear logoBloomNation logoInstacart logoDeliveroo logoKarat logoShopify logoPersona logoGlossier logoDermalogica logoIndochino logoBlockchainCom logoBraintrust logoMagic logoTwitter logoSpotify logoSubstack logoRunway logoElevenLabs logoRetool logoHex logoRunway logoElevenLabs logoRetool logoHex logoPaymentsOpenAI logoGithub logoRamp logoAtlasStripe logo"
+                },
+                {
+                    "stepNumber": 3,
+                    "nodeId": "in/customers/linear",
+                    "url": "https://stripe.com/in/customers/linear",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Linear Partners with Stripe to Handle Billing and Payments as it Grows | StripeStripe logoStripe logoLinear logoCheckoutBillingAtlasClimatePaymentsLiveX AI logoLocalVR logoStripe logo"
+                }
+            ],
+            "stepCount": 3
+        },
+        {
+            "id": "navigation-home-in/startups-in/customers/linear",
+            "type": "navigation",
+            "name": "Stripe Startups programme.Access financial benefits, a focused community, and expert resources to help you grow your business.Apply now Flow",
+            "score": 80,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/startups",
+                    "url": "https://stripe.com/in/startups#application",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Grow Your Business with Stripe | Stripe StartupsStripe logoStripe logoCursor logoElevenLabs logoMistral-ai logoSlack logoTwilio logoLinear logoBloomNation logoInstacart logoDeliveroo logoKarat logoShopify logoPersona logoGlossier logoDermalogica logoIndochino logoBlockchainCom logoBraintrust logoMagic logoTwitter logoSpotify logoSubstack logoRunway logoElevenLabs logoRetool logoHex logoRunway logoElevenLabs logoRetool logoHex logoPaymentsOpenAI logoGithub logoRamp logoAtlasStripe logo"
+                },
+                {
+                    "stepNumber": 3,
+                    "nodeId": "in/customers/linear",
+                    "url": "https://stripe.com/in/customers/linear",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Linear Partners with Stripe to Handle Billing and Payments as it Grows | StripeStripe logoStripe logoLinear logoCheckoutBillingAtlasClimatePaymentsLiveX AI logoLocalVR logoStripe logo"
+                }
+            ],
+            "stepCount": 3
+        },
+        {
+            "id": "navigation-home-in/newsroom/news/stripe-openai-instant-checkout",
+            "type": "navigation",
+            "name": "checkout Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/newsroom/news/stripe-openai-instant-checkout",
+                    "url": "https://stripe.com/in/newsroom/news/stripe-openai-instant-checkout",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Stripe powers Instant Checkout in ChatGPT and releases Agentic Commerce Protocol co-developed with OpenAIStripe logoStripe logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/lovable",
+            "type": "navigation",
+            "name": "checkout Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/lovable",
+                    "url": "https://stripe.com/in/customers/lovable",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Riding the AI boom: How Lovable Grew into a Vibe-Coding Juggernaut with StripeStripe logoStripe logoLovable logoAtlasBillingPaymentsCheckoutRadarInvoicingStripe SigmaLikeToKnowIt logoLuckinCoffee logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/instacart",
+            "type": "navigation",
+            "name": "Read the story Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/instacart",
+                    "url": "https://stripe.com/in/customers/instacart",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Behind the scenes: How Instacart powers online grocery delivery with StripeStripe logoStripe logoInstacart logoPaymentsConnectIssuingInstacart logoIntelsat logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/runway",
+            "type": "navigation",
+            "name": "Runway protects developer time with no-code solutions from Stripe.Read Runway's story Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/runway",
+                    "url": "https://stripe.com/in/customers/runway",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Runway Protects Developer Time with No-Code Solutions from Stripe | StripeStripe logoStripe logoRunway logoBillingTaxRevenue RecognitionPaymentsCheckoutRadarRushOrderTees logoRVshare logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/linear",
+            "type": "navigation",
+            "name": "Linear partners with Stripe to handle billing and payments.Read Linear's story Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/linear",
+                    "url": "https://stripe.com/in/customers/linear",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Linear Partners with Stripe to Handle Billing and Payments as it Grows | StripeStripe logoStripe logoLinear logoCheckoutBillingAtlasClimatePaymentsLiveX AI logoLocalVR logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/elevenlabs",
+            "type": "navigation",
+            "name": "ElevenLabs grows into a US$3bn AI audio leader with Stripe.Watch the video Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/elevenlabs",
+                    "url": "https://stripe.com/in/customers/elevenlabs",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Behind the scenes: How ElevenLabs grew into a $3 billion AI audio leader with StripeStripe logoStripe logoElevenLabs logoBillingConnectPaymentsCheckoutTaxStripe SigmaEmber logoEndava logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/lp/vertical-saas-benchmark-2025",
+            "type": "navigation",
+            "name": "Get the data Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/lp/vertical-saas-benchmark-2025",
+                    "url": "https://stripe.com/in/lp/vertical-saas-benchmark-2025?utm_medium=owned-surfaces&utm_source=33d6&utm_campaign=GLOBAL_4250&utm_content=819a&utm_term=a6a6d7b23e01",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Vertical SaaS benchmarks for growth, fintech and AI | StripeStripe logoDurationPage countStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/crypto-com-spotlight",
+            "type": "navigation",
+            "name": "View announcement Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/crypto-com-spotlight",
+                    "url": "https://stripe.com/in/customers/crypto-com-spotlight",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Crypto.com Partners with Stripe to Enable Convenient Crypto Payments | StripeStripe logoStripe logocrypto.com logoPaymentsElementsCheckoutCryptoCSFloat logoCarnegie logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/blog/introducing-our-agentic-commerce-solutions",
+            "type": "navigation",
+            "name": "Read more Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/blog/introducing-our-agentic-commerce-solutions",
+                    "url": "https://stripe.com/in/blog/introducing-our-agentic-commerce-solutions",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Introducing our agentic commerce solutionsStripe logoStripe logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/lp/how-retailers-drive-growth",
+            "type": "navigation",
+            "name": "Get the report Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/lp/how-retailers-drive-growth",
+                    "url": "https://stripe.com/in/lp/how-retailers-drive-growth",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Retail payment strategies that drive growthStripe logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/newsroom/news/stripe-openai-instant-checkout",
+            "type": "navigation",
+            "name": "checkout Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/newsroom/news/stripe-openai-instant-checkout",
+                    "url": "https://stripe.com/in/newsroom/news/stripe-openai-instant-checkout",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Stripe powers Instant Checkout in ChatGPT and releases Agentic Commerce Protocol co-developed with OpenAIStripe logoStripe logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/lovable",
+            "type": "navigation",
+            "name": "checkout Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/lovable",
+                    "url": "https://stripe.com/in/customers/lovable",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Riding the AI boom: How Lovable Grew into a Vibe-Coding Juggernaut with StripeStripe logoStripe logoLovable logoAtlasBillingPaymentsCheckoutRadarInvoicingStripe SigmaLikeToKnowIt logoLuckinCoffee logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/instacart",
+            "type": "navigation",
+            "name": "Read the story Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/instacart",
+                    "url": "https://stripe.com/in/customers/instacart",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Behind the scenes: How Instacart powers online grocery delivery with StripeStripe logoStripe logoInstacart logoPaymentsConnectIssuingInstacart logoIntelsat logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/runway",
+            "type": "navigation",
+            "name": "Runway protects developer time with no-code solutions from Stripe.Read Runway's story Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/runway",
+                    "url": "https://stripe.com/in/customers/runway",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Runway Protects Developer Time with No-Code Solutions from Stripe | StripeStripe logoStripe logoRunway logoBillingTaxRevenue RecognitionPaymentsCheckoutRadarRushOrderTees logoRVshare logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/linear",
+            "type": "navigation",
+            "name": "Linear partners with Stripe to handle billing and payments.Read Linear's story Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/linear",
+                    "url": "https://stripe.com/in/customers/linear",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Linear Partners with Stripe to Handle Billing and Payments as it Grows | StripeStripe logoStripe logoLinear logoCheckoutBillingAtlasClimatePaymentsLiveX AI logoLocalVR logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/elevenlabs",
+            "type": "navigation",
+            "name": "ElevenLabs grows into a US$3bn AI audio leader with Stripe.Watch the video Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/elevenlabs",
+                    "url": "https://stripe.com/in/customers/elevenlabs",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Behind the scenes: How ElevenLabs grew into a $3 billion AI audio leader with StripeStripe logoStripe logoElevenLabs logoBillingConnectPaymentsCheckoutTaxStripe SigmaEmber logoEndava logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/lp/vertical-saas-benchmark-2025",
+            "type": "navigation",
+            "name": "Get the data Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/lp/vertical-saas-benchmark-2025",
+                    "url": "https://stripe.com/in/lp/vertical-saas-benchmark-2025?utm_medium=owned-surfaces&utm_source=33d6&utm_campaign=GLOBAL_4250&utm_content=819a&utm_term=a6a6d7b23e01",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Vertical SaaS benchmarks for growth, fintech and AI | StripeStripe logoDurationPage countStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/crypto-com-spotlight",
+            "type": "navigation",
+            "name": "View announcement Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/crypto-com-spotlight",
+                    "url": "https://stripe.com/in/customers/crypto-com-spotlight",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Crypto.com Partners with Stripe to Enable Convenient Crypto Payments | StripeStripe logoStripe logocrypto.com logoPaymentsElementsCheckoutCryptoCSFloat logoCarnegie logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/blog/introducing-our-agentic-commerce-solutions",
+            "type": "navigation",
+            "name": "Read more Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/blog/introducing-our-agentic-commerce-solutions",
+                    "url": "https://stripe.com/in/blog/introducing-our-agentic-commerce-solutions",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Introducing our agentic commerce solutionsStripe logoStripe logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/lp/how-retailers-drive-growth",
+            "type": "navigation",
+            "name": "Get the report Flow",
+            "score": 75,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/lp/how-retailers-drive-growth",
+                    "url": "https://stripe.com/in/lp/how-retailers-drive-growth",
+                    "label": "Checkout",
+                    "pageType": "checkout",
+                    "title": "Retail payment strategies that drive growthStripe logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/woo-in/capital",
+            "type": "navigation",
+            "name": "product-list Flow",
+            "score": 65,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/woo",
+                    "url": "https://stripe.com/in/customers/woo",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Stripe for WooCommerce: Powering WooPayments GloballyStripe logoStripe logoWooCommerce logoTerminalBillingConnectPaymentsWooCommerce logoWooCommerce logoStripe logo"
+                },
+                {
+                    "stepNumber": 3,
+                    "nodeId": "in/capital",
+                    "url": "https://stripe.com/in/capital",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe Capital | Loans and Cash Advances for Small BusinessesStripe logoStripe logoCapitalXirsys logoProsper202 logoMyPark logoPerfectTux logoXirsys logoProsper202 logoMyPark logoPerfectTux logoStripe logo"
+                }
+            ],
+            "stepCount": 3
+        },
+        {
+            "id": "navigation-home-in/newsroom/news/bfcm2025-in/customers/shopify",
+            "type": "navigation",
+            "name": "See the numbers Flow",
+            "score": 65,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/newsroom/news/bfcm2025",
+                    "url": "https://stripe.com/in/newsroom/news/bfcm2025",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Businesses on Stripe processed more than $40 billion from Black Friday through Cyber MondayStripe logoStripe logoStripe logo"
+                },
+                {
+                    "stepNumber": 3,
+                    "nodeId": "in/customers/shopify",
+                    "url": "https://stripe.com/in/customers/shopify",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Shopify case study | StripeStripe logoStripe logoShopify logoIssuingFinancial AccountsTerminalPaymentsConnectShopify logoShoplazza logoStripe logo"
+                }
+            ],
+            "stepCount": 3
+        },
+        {
+            "id": "navigation-home-in/customers/woo-in/capital",
+            "type": "navigation",
+            "name": "product-list Flow",
+            "score": 60,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/woo",
+                    "url": "https://stripe.com/in/customers/woo",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Stripe for WooCommerce: Powering WooPayments GloballyStripe logoStripe logoWooCommerce logoTerminalBillingConnectPaymentsWooCommerce logoWooCommerce logoStripe logo"
+                },
+                {
+                    "stepNumber": 3,
+                    "nodeId": "in/capital",
+                    "url": "https://stripe.com/in/capital",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe Capital | Loans and Cash Advances for Small BusinessesStripe logoStripe logoCapitalXirsys logoProsper202 logoMyPark logoPerfectTux logoXirsys logoProsper202 logoMyPark logoPerfectTux logoStripe logo"
+                }
+            ],
+            "stepCount": 3
+        },
+        {
+            "id": "navigation-home-in/customers/substack-in/customers/supabase",
+            "type": "navigation",
+            "name": "Read the story Flow",
+            "score": 60,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/substack",
+                    "url": "https://stripe.com/in/customers/substack",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Substack Surpasses Five-Million Paid Subscriptions | StripeStripe logoStripe logoSubstack logoConnectBillingPaymentsElementsRadarSupabase logoSusquehanna Growth Equity logoStripe logo"
+                },
+                {
+                    "stepNumber": 3,
+                    "nodeId": "in/customers/supabase",
+                    "url": "https://stripe.com/in/customers/supabase",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Supabase delivers its backend-as-a-service to 150 countries with StripeStripe logoStripe logoSupabase logoPaymentsElementsRadarAuthorizationSusquehanna Growth Equity logoSwimAustralia logoStripe logo"
+                }
+            ],
+            "stepCount": 3
+        },
+        {
+            "id": "navigation-home-in/newsroom/news/bfcm2025-in/customers/shopify",
+            "type": "navigation",
+            "name": "See the numbers Flow",
+            "score": 60,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/newsroom/news/bfcm2025",
+                    "url": "https://stripe.com/in/newsroom/news/bfcm2025",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Businesses on Stripe processed more than $40 billion from Black Friday through Cyber MondayStripe logoStripe logoStripe logo"
+                },
+                {
+                    "stepNumber": 3,
+                    "nodeId": "in/customers/shopify",
+                    "url": "https://stripe.com/in/customers/shopify",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Shopify case study | StripeStripe logoStripe logoShopify logoIssuingFinancial AccountsTerminalPaymentsConnectShopify logoShoplazza logoStripe logo"
+                }
+            ],
+            "stepCount": 3
+        },
+        {
+            "id": "navigation-home-in/guides/best-practices-for-launching-and-scaling-platform-payments-in/guides/intro",
+            "type": "navigation",
+            "name": "Read the guide Flow",
+            "score": 60,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/guides/best-practices-for-launching-and-scaling-platform-payments",
+                    "url": "https://stripe.com/in/guides/best-practices-for-launching-and-scaling-platform-payments",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Report: Best practices for launching and scaling platform paymentsStripe logoStripe logoPaymentsPaymentsStripe logo"
+                },
+                {
+                    "stepNumber": 3,
+                    "nodeId": "in/guides/introduction-to-monetizing-payments",
+                    "url": "https://stripe.com/in/guides/introduction-to-monetizing-payments",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Introduction to monetising payments for SaaS platformsStripe logoStripe logoConnectConnectStripe logo"
+                }
+            ],
+            "stepCount": 3
+        },
+        {
+            "id": "navigation-home-in/customers/substack-in/customers/supabase",
+            "type": "navigation",
+            "name": "Read the story Flow",
+            "score": 60,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/substack",
+                    "url": "https://stripe.com/in/customers/substack",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Substack Surpasses Five-Million Paid Subscriptions | StripeStripe logoStripe logoSubstack logoConnectBillingPaymentsElementsRadarSupabase logoSusquehanna Growth Equity logoStripe logo"
+                },
+                {
+                    "stepNumber": 3,
+                    "nodeId": "in/customers/supabase",
+                    "url": "https://stripe.com/in/customers/supabase",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Supabase delivers its backend-as-a-service to 150 countries with StripeStripe logoStripe logoSupabase logoPaymentsElementsRadarAuthorizationSusquehanna Growth Equity logoSwimAustralia logoStripe logo"
+                }
+            ],
+            "stepCount": 3
+        },
+        {
+            "id": "navigation-home-in/customers/shopify",
+            "type": "navigation",
+            "name": "product-list Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/shopify",
+                    "url": "https://stripe.com/in/customers/shopify",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Shopify case study | StripeStripe logoStripe logoShopify logoIssuingFinancial AccountsTerminalPaymentsConnectShopify logoShoplazza logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/mindbody",
+            "type": "navigation",
+            "name": "product-list Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/mindbody",
+                    "url": "https://stripe.com/in/customers/mindbody",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Behind the scenes: How Mindbody Built its Integrated Payments Platform | StripeStripe logoStripe logoMindbody logoPaymentsTerminalRadarConnectMindvalley logoMinelab logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/figma",
+            "type": "navigation",
+            "name": "product-list Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/figma",
+                    "url": "https://stripe.com/in/customers/figma",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Figma case study | Stripe Stripe logoStripe logoFigma logoBillingPaymentsElementsInvoicingRadarFinAI logoFindigs logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/anthropic",
+            "type": "navigation",
+            "name": "product-list Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/anthropic",
+                    "url": "https://stripe.com/in/customers/anthropic",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "How Anthropic Built a Scalable Revenue Model | Stripe  Stripe logoStripe logoAnthropic logoPaymentsElementsBillingInvoicingStripe SigmaRadarAPCOA logoArc logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/hertz",
+            "type": "navigation",
+            "name": "Read the story Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/hertz",
+                    "url": "https://stripe.com/in/customers/hertz",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Hertz Unifies Commerce with StripeStripe logoStripe logoHertz logoPaymentsTerminalConnectRadarStripe SigmaHex logoHeyCentric logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/urbn",
+            "type": "navigation",
+            "name": "Read the story Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/urbn",
+                    "url": "https://stripe.com/in/customers/urbn",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "URBN Consolidates $5 billion in Online and In-Store Revenue onto Stripe | Stripe Stripe logoStripe logoURBN logoPaymentsElementsTerminalStripe SigmaConnectVeed.io logoVibefam logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/supabase",
+            "type": "navigation",
+            "name": "Supabase delivers its backend-as-a-service to 150 countries with Stripe.Read Supabase's story Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/supabase",
+                    "url": "https://stripe.com/in/customers/supabase",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Supabase delivers its backend-as-a-service to 150 countries with StripeStripe logoStripe logoSupabase logoPaymentsElementsRadarAuthorizationSusquehanna Growth Equity logoSwimAustralia logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/jobber",
+            "type": "navigation",
+            "name": "Read the story Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/jobber",
+                    "url": "https://stripe.com/in/customers/jobber",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Jobber case study | StripeStripe logoStripe logoJobber logoCapitalConnectBillingInvoicingIssuingTerminalJobber logoJotform logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/amazon",
+            "type": "navigation",
+            "name": "content Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/amazon",
+                    "url": "https://stripe.com/in/customers/amazon",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Amazon Simplifies Cross-Border Payments With Stripe | StripeStripe logoStripe logoAmazon logoPaymentsConnectAna logoAnkorstore logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/newsroom/news/nvidia-collaboration-with-stripe",
+            "type": "navigation",
+            "name": "content Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/newsroom/news/nvidia-collaboration-with-stripe",
+                    "url": "https://stripe.com/in/newsroom/news/nvidia-collaboration-with-stripe",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe deepens collaboration with NVIDIA to enhance Stripe’s AI-powered capabilities and expand global access to NVIDIA’s AI platform Stripe logoStripe logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/newsroom/news/stripe-ford-agreement",
+            "type": "navigation",
+            "name": "content Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/newsroom/news/stripe-ford-agreement",
+                    "url": "https://stripe.com/in/newsroom/news/stripe-ford-agreement",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Ford-Stripe agreement to accelerate easy payment experiences for customers, dealersStripe logoStripe logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/newsroom/news/google-and-stripe",
+            "type": "navigation",
+            "name": "content Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/newsroom/news/google-and-stripe",
+                    "url": "https://stripe.com/in/newsroom/news/google-and-stripe",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Google Workspace integrates Stripe to help businesses accept payments in Google CalendarStripe logoStripe logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/shopify",
+            "type": "navigation",
+            "name": "product-list Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/shopify",
+                    "url": "https://stripe.com/in/customers/shopify",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Shopify case study | StripeStripe logoStripe logoShopify logoIssuingFinancial AccountsTerminalPaymentsConnectShopify logoShoplazza logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/mindbody",
+            "type": "navigation",
+            "name": "product-list Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/mindbody",
+                    "url": "https://stripe.com/in/customers/mindbody",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Behind the scenes: How Mindbody Built its Integrated Payments Platform | StripeStripe logoStripe logoMindbody logoPaymentsTerminalRadarConnectMindvalley logoMinelab logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/ramp",
+            "type": "navigation",
+            "name": "content Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/ramp",
+                    "url": "https://stripe.com/in/customers/ramp",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Ramp case study | Stripe Stripe logoStripe logoRamp logoIssuingRayStudios logoReleased logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/figma",
+            "type": "navigation",
+            "name": "product-list Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/figma",
+                    "url": "https://stripe.com/in/customers/figma",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Figma case study | Stripe Stripe logoStripe logoFigma logoBillingPaymentsElementsInvoicingRadarFinAI logoFindigs logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/newsroom/news/stripe-and-uber",
+            "type": "navigation",
+            "name": "content Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/newsroom/news/stripe-and-uber",
+                    "url": "https://stripe.com/in/newsroom/news/stripe-and-uber",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Uber partners with Stripe to enhance payments performance and reduce costsStripe logoStripe logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/anthropic",
+            "type": "navigation",
+            "name": "product-list Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/anthropic",
+                    "url": "https://stripe.com/in/customers/anthropic",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "How Anthropic Built a Scalable Revenue Model | Stripe  Stripe logoStripe logoAnthropic logoPaymentsElementsBillingInvoicingStripe SigmaRadarAPCOA logoArc logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/hertz",
+            "type": "navigation",
+            "name": "Read the story Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/hertz",
+                    "url": "https://stripe.com/in/customers/hertz",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Hertz Unifies Commerce with StripeStripe logoStripe logoHertz logoPaymentsTerminalConnectRadarStripe SigmaHex logoHeyCentric logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/urbn",
+            "type": "navigation",
+            "name": "Read the story Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/urbn",
+                    "url": "https://stripe.com/in/customers/urbn",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "URBN Consolidates $5 billion in Online and In-Store Revenue onto Stripe | Stripe Stripe logoStripe logoURBN logoPaymentsElementsTerminalStripe SigmaConnectVeed.io logoVibefam logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/le-monde",
+            "type": "navigation",
+            "name": "Read the story Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/le-monde",
+                    "url": "https://stripe.com/in/customers/le-monde",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Le Monde chooses Stripe to improve local and international paymentsStripe logoStripe logoLeMonde logoPaymentsStripe SigmaRadarLeasePlan logoLeonardoAi logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/supabase",
+            "type": "navigation",
+            "name": "Supabase delivers its backend-as-a-service to 150 countries with Stripe.Read Supabase's story Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/supabase",
+                    "url": "https://stripe.com/in/customers/supabase",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Supabase delivers its backend-as-a-service to 150 countries with StripeStripe logoStripe logoSupabase logoPaymentsElementsRadarAuthorizationSusquehanna Growth Equity logoSwimAustralia logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/browserbase",
+            "type": "navigation",
+            "name": "Browserbase offers usage-based billing for an AI agent browser with Stripe.Read Browserbase's story Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/browserbase",
+                    "url": "https://stripe.com/in/customers/browserbase",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Browserbase Powers Web Browsing for AI Agents and Apps with Stripe’s Usage-Based Billing | StripeStripe logoStripe logoBrowserbase logoBillingbsport logoBuckMason logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/decagon",
+            "type": "navigation",
+            "name": "Decagon decreases support costs by 65% with Stripe-integrated agents.Read Decagon's story Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/decagon",
+                    "url": "https://stripe.com/in/customers/decagon",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Decagon AI Decreases Costs for Customer Support Operations by 65% | StripeStripe logoStripe logoDecagon logoBillingInvoicingDecathlon logoDeliveroo logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/guides/introduction-to-monetizing-payments",
+            "type": "navigation",
+            "name": "Read the guide Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/guides/introduction-to-monetizing-payments",
+                    "url": "https://stripe.com/in/guides/introduction-to-monetizing-payments",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Introduction to monetising payments for SaaS platformsStripe logoStripe logoConnectConnectStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/guides/introduction-to-risk-management",
+            "type": "navigation",
+            "name": "Read the guide Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/guides/introduction-to-risk-management",
+                    "url": "https://stripe.com/in/guides/introduction-to-risk-management",
+                    "label": "Content Page",
+                    "pageType": "content",
+                    "title": "Stripe: Introduction to risk management for software platformsStripe logoStripe logoRadarRadarStripe logo"
+                }
+            ],
+            "stepCount": 2
+        },
+        {
+            "id": "navigation-home-in/customers/jobber",
+            "type": "navigation",
+            "name": "Read the story Flow",
+            "score": 55,
+            "steps": [
+                {
+                    "stepNumber": 1,
+                    "nodeId": "home",
+                    "url": "https://stripe.com/",
+                    "label": "Home Page",
+                    "pageType": "home",
+                    "title": "Stripe | Financial Infrastructure to Grow Your Revenue"
+                },
+                {
+                    "stepNumber": 2,
+                    "nodeId": "in/customers/jobber",
+                    "url": "https://stripe.com/in/customers/jobber",
+                    "label": "Product Listing",
+                    "pageType": "product-list",
+                    "title": "Jobber case study | StripeStripe logoStripe logoJobber logoCapitalConnectBillingInvoicingIssuingTerminalJobber logoJotform logoStripe logo"
+                }
+            ],
+            "stepCount": 2
+        }
+    ]
+}
