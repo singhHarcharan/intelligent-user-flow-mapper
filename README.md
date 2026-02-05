@@ -1,17 +1,12 @@
 # Intelligent User Flow Mapper
 
-A backend service that extracts **meaningful user navigation flows** from websites, not raw link graphs.
+A backend service that extracts meaningful user navigation flows from websites (not raw link graphs).
 
-## 🎯 Core Philosophy
+## Overview
 
-This is **not** a traditional web crawler. While it uses crawling to collect data, the primary goal is to identify **intent-driven user journeys** by:
+This service crawls a site, classifies pages, removes global navigation noise, and returns user-flow JSON suitable for visualization.
 
-- Aggressively filtering noise (global navigation, redundant links)
-- Detecting semantic page types (login, checkout, product, etc.)
-- Building flows that represent actual user goals
-- Prioritizing quality over quantity
-
-## 🏗️ Architecture
+## Architecture
 
 The system follows a clear pipeline with separation of concerns:
 
@@ -20,105 +15,37 @@ Input → Crawler → Page Analyzer → Flow Extractor → Noise Reducer → Out
 ```
 
 ### 1. Crawler (`src/services/crawler.js`)
-- **Purpose**: Fetch pages and extract links
-- **Strategy**: BFS traversal with depth limiting
-- **Key Feature**: Extracts link context (header, footer, nav, position)
+- Fetches pages and extracts links (BFS + depth limits)
+- Captures link context (header/footer/nav/position)
 
 ### 2. Page Analyzer (`src/services/pageAnalyzer.js`)
-- **Purpose**: Understand what each page represents
-- **Strategy**: Pattern matching on URLs, titles, and content
-- **Output**: Page type classification + link categorization
+- Classifies pages by type using URL/title/content heuristics
+- Separates global vs contextual links
 
 ### 3. Flow Extractor (`src/services/flowExtractor.js`)
-- **Purpose**: Build meaningful user journeys (THE CORE)
-- **Strategy**: Pattern-based flow detection
-- **Patterns Detected**:
-  - **E-commerce**: Home → Product List → Product Detail → Checkout
-  - **Authentication**: Home → Login/Signup
-  - **Support**: Entry → Support → Contact
-  - **Content Exploration**: Linear navigation paths
+- Extracts goal-oriented flows using page types and graph structure
+- Patterns: ecommerce, auth, support, content
 
 ### 4. Noise Reducer (`src/services/noiseReducer.js`)
-- **Purpose**: Remove redundant and low-quality flows
-- **Techniques**:
-  - Deduplication
-  - Subset removal (A→B removed if A→B→C exists)
-  - Generic content filtering
-  - Circular path detection
-  - Meaningfulness scoring
+- Removes redundant/low-value flows
+- Dedupes by URL and by page-type sequence
+- Collapses consecutive identical page types
 
 ### 5. Output Formatter (`src/services/outputFormatter.js`)
-- **Purpose**: Create frontend-ready JSON
-- **Output Structure**: Nodes + Edges + Flows
+- Produces JSON for frontend visualization
 
-## 🧠 Flow Extraction Strategy
+## Flow Extraction Notes
 
-### What Makes a Meaningful Flow?
+Meaningful flows are goal-oriented paths, not raw link graphs. The pipeline focuses on:
 
-A meaningful flow represents a **goal-oriented user journey**, not just arbitrary navigation.
+- Page type detection (login, checkout, product list/detail, support, contact, home)
+- Global vs contextual links (header/footer/nav vs in-content)
+- Deduplication (URL-based and page-type sequence)
+- Subset removal and circular path filtering
 
-**Good flows:**
-- Home → Login → Dashboard
-- Home → Product Listing → Product Details → Checkout
-- Home → Support → Contact Form
+This keeps output concise and readable while preserving intent-driven navigation.
 
-**Bad flows (filtered out):**
-- Home → About → Terms → Privacy (just clicking footer links)
-- Home → Header Nav → Footer Nav → Header Nav (random navigation)
-
-### Noise Reduction Heuristics
-
-#### 1. **Global vs Contextual Link Classification**
-
-Links are classified based on their position and context:
-
-**Global Navigation** (filtered out):
-- Links in `<header>`, `<footer>`, `<nav>`, `<aside>`
-- Links with classes like `nav-`, `menu-`, `header-`, `footer-`
-- Links appearing in top 20% or bottom 20% of page
-
-**Contextual Navigation** (kept):
-- Links in main content area
-- Links with semantic meaning (buttons, CTAs)
-- Links that advance user toward a goal
-
-**Why this matters**: Global navigation creates noise. If every page links to "About" in the footer, it doesn't represent a meaningful user flow.
-
-#### 2. **Page Type Detection**
-
-Pages are classified into types to understand flow semantics:
-
-| Page Type | Detection Heuristics |
-|-----------|---------------------|
-| `login` | URL contains `/login`, has password input |
-| `checkout` | URL contains `/checkout`, has payment forms |
-| `product-list` | Multiple product elements, grid layout |
-| `product-detail` | Price + "Add to Cart" button |
-| `contact` | URL contains `/contact`, has form |
-| `support` | URL contains `/support` or `/help` |
-| `home` | Root URL |
-
-#### 3. **Flow Scoring**
-
-Flows are scored based on:
-- **Length**: Longer flows (up to 5 steps) are more meaningful
-- **Diversity**: Flows with varied page types are richer
-- **Goal pages**: Flows ending in checkout/contact are prioritized
-- **Type**: E-commerce > Auth > Support > Generic content
-
-#### 4. **Subset Removal**
-
-If flow `A→B` exists and flow `A→B→C` exists, we keep only `A→B→C`.
-
-**Rationale**: The longer flow provides more complete information.
-
-#### 5. **Generic Content Filtering**
-
-Flows where >70% of pages are generic "content" pages are removed.
-
-**Rationale**: These are usually random exploration, not goal-driven.
-
-## 📊 Output Format
+## Output Format
 
 The service outputs JSON structured for frontend visualization:
 
@@ -196,7 +123,7 @@ The service outputs JSON structured for frontend visualization:
 }
 ```
 
-### How Frontend Should Use This
+### Frontend Usage
 
 The output is designed for flow visualization libraries:
 
@@ -205,13 +132,13 @@ The output is designed for flow visualization libraries:
 3. **Flows**: Group nodes into distinct user journeys
 4. **Layout**: Use force-directed or hierarchical layout algorithms
 
-Example frontend libraries that work well with this format:
+Example frontend libraries:
 - React Flow
 - D3.js force layout
 - Cytoscape.js
 - vis.js
 
-## 🚀 Usage
+## Usage
 
 ### Installation
 
@@ -280,7 +207,7 @@ npm test
 
 This runs an example against a demo site and outputs the result.
 
-## ⚙️ Configuration
+## Configuration
 
 ### Default Values
 
@@ -329,27 +256,25 @@ For SPA / form login flows:
 }
 ```
 
-## 🔧 Technology Stack
+## Technology Stack
 
 - **Node.js** - Runtime
 - **Express.js** - API framework
 - **axios** - HTTP client
 - **cheerio** - HTML parsing and DOM traversal
 
-### Why These Choices?
+### Design Notes
 
-- **No database**: Flows are computed in-memory. No persistent storage needed.
-- **No Playwright by default**: Most sites work with static HTML parsing. Playwright can be added for SPA-heavy sites.
-- **Cheerio over JSDOM**: Faster, lighter, sufficient for link extraction.
-- **In-memory processing**: Keeps the service stateless and scalable.
+- No database; flows are computed in-memory.
+- Cheerio for HTML parsing; Playwright optional for SPAs.
 
-## 📈 Tradeoffs & Limitations
+## Tradeoffs & Limitations
 
 ### Known Limitations
 
-1. **JavaScript-rendered content**: Default is static HTML parsing. For SPAs, use `rendering: "playwright"` or `authMode: "form"`.
+1. **JavaScript-rendered content**: Default is static HTML. Use `rendering: "playwright"` for SPAs.
 
-2. **Authentication**: Supports basic and form-based login. OAuth and complex multi-step SSO are not supported.
+2. **Authentication**: Basic and simple form login only. OAuth/SSO not supported.
 
 3. **Scale**: In-memory processing limits crawl size.
    - **Mitigation**: Adequate for most sites (50-100 pages). Can add streaming for larger sites.
@@ -366,7 +291,7 @@ For SPA / form login flows:
 | Pattern-based extraction | Explainable, debuggable | Less accurate than ML approaches |
 | Aggressive filtering | High precision flows | May miss some valid paths |
 
-## 🧪 Testing Strategy
+## Testing Strategy
 
 To test this system effectively:
 
@@ -375,7 +300,7 @@ To test this system effectively:
 3. **Documentation site**: Should capture content hierarchy
 4. **SPA**: Should identify limitations (requires Playwright)
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 1. **Playwright integration** - Optional for JS-heavy sites
 2. **Cookie/session support** - Full auth workflows
@@ -384,33 +309,18 @@ To test this system effectively:
 5. **Streaming output** - Handle larger sites
 6. **Diff mode** - Compare flows across site versions
 
-## 💡 Key Insights
+## When to Use This
 
-### Why This Approach Works
+Good for:
+- User journey mapping
+- Conversion funnel analysis
+- Navigation/UX audits
 
-1. **Context matters**: Links in headers/footers mean different things than links in content
-2. **Page types are semantic**: A checkout page has different navigation meaning than a blog post
-3. **Goal-oriented thinking**: Users navigate with intent, not randomly
-4. **Less is more**: 5 meaningful flows > 50 noisy link graphs
-
-### When to Use This
-
-✅ **Good for:**
-- Understanding user journeys on your site
-- Identifying conversion funnels
-- UX audits and navigation analysis
-- Onboarding flow optimization
-
-❌ **Not for:**
-- Full site mapping/sitemap generation
+Not for:
+- Full sitemap generation
 - SEO crawling
 - Link validation
-- Content extraction
 
-## 📝 License
+## License
 
 MIT
-
----
-
-**Built with engineering judgment and simplicity in mind.**

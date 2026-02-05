@@ -1,16 +1,6 @@
 /**
- * Extracts meaningful user flows from analyzed pages
- * 
- * Core philosophy:
- * - User flows represent sequences of intentional navigation
- * - Not all links create meaningful flows
- * - Focus on goal-oriented paths and common navigation patterns
- * 
- * Strategy:
- * 1. Build a directed graph from all links
- * 2. Identify and classify navigation patterns
- * 3. Extract semantic flows based on page types and link structure
- * 4. Apply noise reduction and deduplication
+ * Extracts goal-oriented flows from analyzed pages.
+ * Uses page types + link structure to build candidate paths.
  */
 function extractFlows(analyzedPages, startUrl) {
   if (!analyzedPages || !analyzedPages.length) return [];
@@ -53,10 +43,7 @@ function extractFlows(analyzedPages, startUrl) {
   return uniqueFlows;
 }
 
-/**
- * Builds a complete directed graph from all pages and links
- * Includes all links initially - filtering happens during flow extraction
- */
+// Build directed graph from all pages/links.
 function buildCompleteGraph(analyzedPages) {
   const graph = new Map();
   
@@ -99,10 +86,7 @@ function buildCompleteGraph(analyzedPages) {
   return graph;
 }
 
-/**
- * Identifies pages that serve as natural entry points
- * Entry points are pages where users typically start their journey
- */
+// Entry points are likely starting pages (home/root/startUrl).
 function identifyEntryPoints(analyzedPages, startUrl) {
   const entryPoints = new Set();
   
@@ -128,9 +112,7 @@ function identifyEntryPoints(analyzedPages, startUrl) {
   return Array.from(entryPoints);
 }
 
-/**
- * Extracts flows based on common patterns (ecommerce, auth, etc.)
- */
+// Pattern-based flows.
 function extractCommonPatterns(graph, analyzedPages, entryPoints, patternType) {
   switch (patternType) {
     case 'ecommerce':
@@ -146,9 +128,7 @@ function extractCommonPatterns(graph, analyzedPages, entryPoints, patternType) {
   }
 }
 
-/**
- * Extracts linear flows (simple sequences of pages)
- */
+// Linear flows (contextual links only).
 function extractLinearFlows(graph, analyzedPages, entryPoints, options = {}) {
   const { minLength = 3, maxLength = 10 } = options;
   const flows = [];
@@ -195,9 +175,7 @@ function extractLinearFlows(graph, analyzedPages, entryPoints, options = {}) {
   return flows;
 }
 
-/**
- * Extracts custom flows based on page types and relationships
- */
+// Custom flows based on page type relationships.
 function extractCustomFlows(graph, analyzedPages, entryPoints) {
   const flows = [];
   
@@ -222,9 +200,7 @@ function extractCustomFlows(graph, analyzedPages, entryPoints) {
   return flows;
 }
 
-/**
- * Groups pages by their type and other characteristics
- */
+// Group pages by type.
 function groupPagesByType(pages) {
   const groups = {};
   
@@ -239,9 +215,7 @@ function groupPagesByType(pages) {
   return groups;
 }
 
-/**
- * Finds connected paths between a set of pages
- */
+// Find connected paths between pages of same type.
 function findConnectedPaths(graph, pageUrls, maxPathLength = 5) {
   const paths = [];
   
@@ -287,9 +261,7 @@ function findConnectedPaths(graph, pageUrls, maxPathLength = 5) {
   return paths;
 }
 
-/**
- * Calculates a confidence score for a flow
- */
+// Simple confidence scoring.
 function calculateFlowConfidence(graph, path) {
   if (path.length < 2) return 0;
   
@@ -319,9 +291,7 @@ function calculateFlowConfidence(graph, path) {
   return Math.min(1, totalScore);
 }
 
-/**
- * Removes duplicate or highly similar flows
- */
+// Remove duplicate/subpath flows.
 function deduplicateFlows(flows) {
   const uniqueFlows = [];
   const seen = new Set();
@@ -352,10 +322,7 @@ function deduplicateFlows(flows) {
   return uniqueFlows.sort((a, b) => (b.confidence || 0) - (a.confidence || 0));
 }
 
-/**
- * Extracts e-commerce user flows
- * Pattern: Home → [Login] → Product List → Product Detail → Checkout
- */
+// Ecommerce flow: Home → Product List → Product Detail → Checkout
 function extractEcommerceFlows(graph, analyzedPages, entryPoints) {
   const flows = [];
   
@@ -384,10 +351,7 @@ function extractEcommerceFlows(graph, analyzedPages, entryPoints) {
   return flows;
 }
 
-/**
- * Extracts authentication flows
- * Pattern: Home → Login/Signup
- */
+// Auth flow: Home → Login/Signup
 function extractAuthFlows(graph, analyzedPages, entryPoints) {
   const flows = [];
   
@@ -425,10 +389,7 @@ function extractAuthFlows(graph, analyzedPages, entryPoints) {
   return flows;
 }
 
-/**
- * Extracts support/contact flows
- * Pattern: Entry → Support → Contact/Form
- */
+// Support flow: Entry → Support → Contact
 function extractSupportFlows(graph, analyzedPages, entryPoints) {
   const flows = [];
   
@@ -456,10 +417,7 @@ function extractSupportFlows(graph, analyzedPages, entryPoints) {
   return flows;
 }
 
-/**
- * Extracts general content exploration flows
- * This captures any other meaningful sequential navigation
- */
+// Generic content exploration flows.
 function extractContentFlows(graph, analyzedPages, entryPoints) {
   const flows = [];
   
@@ -482,13 +440,7 @@ function extractContentFlows(graph, analyzedPages, entryPoints) {
   return flows;
 }
 
-/**
- * Extracts hub-and-spoke flows (common in marketing/SaaS sites)
- * Pattern: Home → Major Section (Products, Pricing, Docs, etc.)
- * 
- * This handles sites like Stripe where the homepage links to many
- * major sections, but those sections don't necessarily link to each other
- */
+// Hub-and-spoke flows: Home → Major Section.
 function extractHubAndSpokeFlows(graph, analyzedPages, entryPoints) {
   const flows = [];
   
@@ -541,9 +493,7 @@ function extractHubAndSpokeFlows(graph, analyzedPages, entryPoints) {
   return flows;
 }
 
-/**
- * Helper: Finds a flow that visits specific page types in sequence
- */
+// Find flow visiting target page types in order.
 function findFlowByPageTypes(graph, startUrl, targetTypes, visited, path, currentPath = []) {
   if (!graph.has(startUrl) || visited.has(startUrl)) {
     return null;
@@ -600,9 +550,7 @@ function findFlowByPageTypes(graph, startUrl, targetTypes, visited, path, curren
   return null;
 }
 
-/**
- * Helper: Finds linear paths (no branching) of minimum length
- */
+// Find linear paths (no branching) with min length.
 function findLinearPaths(graph, startUrl, visited, minLength, currentPath = []) {
   if (!graph.has(startUrl) || visited.has(startUrl)) {
     return [];

@@ -1,12 +1,5 @@
 /**
- * Reduces noise in extracted flows
- * 
- * Noise reduction strategies:
- * 1. Remove duplicate flows (same sequence of page types)
- * 2. Remove flows that are subsets of longer flows
- * 3. Filter out flows with too many generic pages
- * 4. Merge similar flows
- * 5. Remove flows with circular paths
+ * Reduces noise in extracted flows.
  */
 function reduceNoise(rawFlows, analyzedPages) {
   let flows = [...rawFlows];
@@ -35,9 +28,7 @@ function reduceNoise(rawFlows, analyzedPages) {
   return flows;
 }
 
-/**
- * Removes flows with identical URL sequences
- */
+// Remove flows with identical URL sequences.
 function removeDuplicateFlows(flows) {
   const seen = new Set();
   const unique = [];
@@ -53,10 +44,7 @@ function removeDuplicateFlows(flows) {
   return unique;
 }
 
-/**
- * Removes flows that are complete subsets of longer flows
- * Example: [A, B] is removed if [A, B, C] exists
- */
+// Remove flows that are prefixes of longer flows.
 function removeSubsetFlows(flows) {
   const filtered = [];
   
@@ -77,12 +65,7 @@ function removeSubsetFlows(flows) {
   return filtered;
 }
 
-/**
- * Removes flows dominated by generic 'content' pages
- * These are usually less meaningful than specific page type flows
- * 
- * UPDATED: More lenient for 2-step flows (hub-and-spoke patterns)
- */
+// Remove flows dominated by generic content.
 function removeGenericFlows(flows, analyzedPages) {
   return flows.filter(flow => {
     const pageTypes = flow.path.map(url => {
@@ -103,9 +86,7 @@ function removeGenericFlows(flows, analyzedPages) {
   });
 }
 
-/**
- * Removes flows with circular paths (A → B → A)
- */
+// Remove circular paths (A → B → A).
 function removeCircularFlows(flows) {
   return flows.filter(flow => {
     const uniqueUrls = new Set(flow.path);
@@ -113,11 +94,7 @@ function removeCircularFlows(flows) {
   });
 }
 
-/**
- * Collapses consecutive steps that map to the same page type.
- * Example: product-list → product-list → product-detail becomes
- * product-list → product-detail.
- */
+// Collapse consecutive steps of the same page type.
 function collapseConsecutiveTypes(flows, analyzedPages) {
   return flows.map(flow => {
     const collapsed = [];
@@ -137,9 +114,7 @@ function collapseConsecutiveTypes(flows, analyzedPages) {
   });
 }
 
-/**
- * Removes duplicate flows that share the same sequence of page types.
- */
+// Remove flows that share the same page-type sequence.
 function dedupeByTypeSequence(flows, analyzedPages) {
   const seen = new Set();
   const unique = [];
@@ -159,17 +134,7 @@ function dedupeByTypeSequence(flows, analyzedPages) {
   return unique;
 }
 
-/**
- * Scores flows by meaningfulness and ranks them
- * 
- * Scoring criteria:
- * - Length (longer flows are more meaningful, up to a point)
- * - Page type diversity (varied page types indicate richer flow)
- * - Presence of goal pages (checkout, contact, etc.)
- * - Flow type priority (ecommerce > auth > support > navigation > content)
- * 
- * UPDATED: Better scoring for 2-step hub-and-spoke flows
- */
+// Score flows by length, diversity, and goal pages.
 function scoreAndRankFlows(flows, analyzedPages) {
   const scored = flows.map(flow => {
     let score = 0;
